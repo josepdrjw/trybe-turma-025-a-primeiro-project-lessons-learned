@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(253, 251, 251);
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+}
+
+#cabecalho{
+    background-color: #4F7D7B;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    /* padding: 10px; */
+
+}
+
+#titulo{
+    color: rgb(253, 251, 251);
+    font-size: 20px;
+    margin-left: 30px;
+    line-height: 4px;
+
+}
+
+
+#minha_foto{
+    position: relative;
+    left: 40px;
+    border: 2px solid black;
+    width: 180px;
+    height: 200px;
+    border-radius: 20%;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #B8D3D1;
+}
+
+
+td{
+    border: 2px solid black;
+}
+
+.h3{
+   color: blac; 
+   font-size: 20px;
+
+  
+   
+}
+
+#title-lista{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.trybe{
+    color: #203226;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+#trybe{
+    color: #203226;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#licoes_aprendidas{
+    /* text-align: center;ssss */
+    list-style: none;
+    font-family: 'Cairo', sans-serif;
+}
+
+#licoes_a_aprender{
+    /* text-align: center; */
+    list-style: none;
+    font-family: 'Cairo', sans-serif;
+}
+
+#linkedin{
+    width: 100px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+
+#github{
+    width: 100px;
+    margin-bottom: 120px;
+    position: relative;
+    right: 110px;    
+    
+
+    
+}
+
+
+.lado-esquerdo p {
+    line-height: 20px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.lado-esquerdo{
+    width: 30%;
+    padding: 10px;
+}
+
+.lado-direito p {
+    line-height: 20px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.lado-direito{
+    width: 38%;
+    /* padding-right: 0px; */
+
+}
+
+.section-lista{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-foto, ol, ul { 
+    line-height: 15px;
+} 
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.title-foto{
+    border: 2px solid red;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #4F7D7B;
+}
+
+footer p {
+    line-height: 30px;
+    text-align: center;
+    color: rgb(253, 251, 251);
+}
+
